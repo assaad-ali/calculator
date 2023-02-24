@@ -22,3 +22,10 @@ buttons.forEach((item) => {
     }
   };
 });
+
+
+themeToggleBtn.onclick = () => {
+  calculator.classList.toggle("dark");
+  themeToggleBtn.classList.toggle("active");
+  isDark = !isDark;
+};
